@@ -55,16 +55,6 @@ DB_HOST=localhost
 DB_PORT=5432
 ```
 
-## Project Structure
-
-├── data/               # Sample CSV
-├── src/
-│   ├── io/             # CSV handling
-│   └── transaction/    # Core logic
-├── sql/                # Database schema
-├── .env.example        # Config template
-└── docker-compose.yaml # DB service
-
 ## Sample CSV Format
 
 ``` bash
