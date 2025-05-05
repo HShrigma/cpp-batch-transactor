@@ -1,147 +1,23 @@
-[ 5.05.2025 (пн) 15:58:09 EEST] Starting batch job...
-[ 5.05.2025 (пн) 15:58:10 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 15:58:28 EEST] Starting batch job...
-loopingloopingloopingloopingloopingloopingloopingloopinguser_id
-loopingloopingloopingloopingloopingtype
-loopingloopingloopingloopingloopingloopingloopingamount
-loopingloopingloopingloopingloopingloopingloopingloopingloopingloopingtimestamp
-row item 0: user_id
-row item 1: type
-row item 2: amount
-row item 3: timestamp
-loopinglooping1
-loopingloopingloopingloopingloopingloopingdebit
-loopingloopinglooping30
-looping
-row item 0: 1
-row item 1: debit
-row item 2: 30
-row item 3: 
-loopinglooping5
-loopingloopingloopingloopingloopingloopingloopingcredit
-loopingloopinglooping30
-looping
-row item 0: 5
-row item 1: credit
-row item 2: 30
-row item 3: 
-[ 5.05.2025 (пн) 15:58:28 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 15:58:59 EEST] Starting batch job...
-row item 0: user_id
-row item 1: type
-row item 2: amount
-row item 3: timestamp
-row item 0: 1
-row item 1: debit
-row item 2: 30
-row item 3: 
-row item 0: 5
-row item 1: credit
-row item 2: 30
-row item 3: 
-[ 5.05.2025 (пн) 15:59:00 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 16:02:51 EEST] Starting batch job...
-row item 0: user_id
-row item 1: type
-row item 2: amount
-row item 3: timestamp
-row item 4: 
-row item 0: 1
-row item 1: debit
-row item 2: 30
-row item 3: 
-row item 4: 
-row item 0: 5
-row item 1: credit
-row item 2: 30
-row item 3: 
-row item 4: 
-[ 5.05.2025 (пн) 16:02:51 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 16:03:17 EEST] Starting batch job...
-row item 0: user_id
-row item 1: type
-row item 2: amount
-row item 3: timestamp
-row item 0: 1
-row item 1: debit
-row item 2: 30
-row item 3: 
-row item 0: 5
-row item 1: credit
-row item 2: 30
-row item 3: 
-[ 5.05.2025 (пн) 16:03:17 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 16:04:25 EEST] Starting batch job...
-row item 0: user_id
-row item 1: type
-row item 2: amount
-row item 3: timestamp
-row item 0: 1
-row item 1: debit
-row item 2: 30
-row item 0: 5
-row item 1: credit
-row item 2: 30
-[ 5.05.2025 (пн) 16:04:26 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 16:09:45 EEST] Starting batch job...
-ROW:
-user_id: user_id
-type: type
-amount: amount
-timestamp: timestamp
-ROW:
-user_id: 1
-type: debit
-amount: 30
-timestamp: none
-ROW:
-user_id: 5
-type: credit
-amount: 30
-timestamp: none
-ROW:
-user_id: 3
-type: debit
-amount: 34
-timestamp: sample
-[ 5.05.2025 (пн) 16:09:48 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 16:14:37 EEST] Starting batch job...
-ROW:
-user_id: 1
-type: debit
-amount: 30
-timestamp: none
-ROW:
-user_id: 5
-type: credit
-amount: 30
-timestamp: none
-ROW:
-user_id: 3
-type: debit
-amount: 34
-timestamp: sample
-[ 5.05.2025 (пн) 16:14:44 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 16:19:32 EEST] Starting batch job...
+[ 5.05.2025 (пн) 16:24:10 EEST] Starting batch job...
 [INFO] processTransaction called.
 [INFO] Argument are valid.
 [INFO] Transaction created:
 User ID: 1
 Type: debit
 Amount: 30
-Timestamp: 2025-05-05T13:19:35.774171067Z
+Timestamp: 2025-05-05T13:24:10.310435021Z
 [INFO] processTransaction called.
 [INFO] Argument are valid.
 [INFO] Transaction created:
 User ID: 5
 Type: credit
 Amount: 30
-Timestamp: 2025-05-05T13:19:35.774244776Z
+Timestamp: 2025-05-05T13:24:10.310486909Z
 [INFO] processTransaction called.
 [INFO] Argument are valid.
 [INFO] Transaction created:
 User ID: 3
 Type: debit
 Amount: 34
-Timestamp: 2025-05-05T13:19:35.774474787Z
-[ 5.05.2025 (пн) 16:19:35 EEST] Batch Job complete.
+Timestamp: 2025-05-05T13:24:10.310700349Z
+[ 5.05.2025 (пн) 16:24:10 EEST] Batch Job complete.
