@@ -1,4 +1,7 @@
-[ 5.05.2025 (пн) 17:46:55 EEST] Starting batch job...
+[ 5.05.2025 (пн) 17:54:17 EEST] Starting batch job...
+[Error] Missing database credentials in environment variables.
+[ 5.05.2025 (пн) 17:54:19 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 17:54:48 EEST] Starting batch job...
 Connected to the database!
 [INFO] processTransaction called.
 [INFO] Argument are valid. Returning transaction object.
@@ -6,24 +9,24 @@ Connected to the database!
 User ID: 1
 Type: debit
 Amount: 30
-Timestamp: 2025-05-05T14:46:57.837978789Z
-[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(1, 'debit', 30.000000, '2025-05-05T14:46:57.837978789Z');
+Timestamp: 2025-05-05T14:54:48.554823581Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(1, 'debit', 30.000000, '2025-05-05T14:54:48.554823581Z');
 [INFO] processTransaction called.
 [INFO] Argument are valid. Returning transaction object.
 [INFO] Transaction created:
 User ID: 5
 Type: credit
 Amount: 30
-Timestamp: 2025-05-05T14:46:57.838783177Z
-[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(5, 'credit', 30.000000, '2025-05-05T14:46:57.838783177Z');
+Timestamp: 2025-05-05T14:54:48.555641295Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(5, 'credit', 30.000000, '2025-05-05T14:54:48.555641295Z');
 [INFO] processTransaction called.
 [INFO] Argument are valid. Returning transaction object.
 [INFO] Transaction created:
 User ID: 3
 Type: debit
 Amount: 34
-Timestamp: 2025-05-05T14:46:57.839131581Z
-[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(3, 'debit', 34.000000, '2025-05-05T14:46:57.839131581Z');
+Timestamp: 2025-05-05T14:54:48.555988015Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(3, 'debit', 34.000000, '2025-05-05T14:54:48.555988015Z');
 [INFO] processTransaction called.
 [ERROR] TransactionValidator::validateArgs: Argument Type Error at index 0:
 Expected: Unsigned Long convertible value
@@ -37,4 +40,44 @@ Received: junk
 [ERROR] process_transaction called: Invalid Arguments
 [WARNING] Query Invalid, will not execute.[INVALID]
 [INFO] Transactions successfully committed to the database!
-[ 5.05.2025 (пн) 17:46:57 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 17:54:48 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 17:56:10 EEST] Starting batch job...
+Connected to the database!
+[INFO] processTransaction called.
+[INFO] Argument are valid. Returning transaction object.
+[INFO] Transaction created:
+User ID: 1
+Type: debit
+Amount: 30
+Timestamp: 2025-05-05T14:56:10.728450306Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(1, 'debit', 30.000000, '2025-05-05T14:56:10.728450306Z');
+[INFO] processTransaction called.
+[INFO] Argument are valid. Returning transaction object.
+[INFO] Transaction created:
+User ID: 5
+Type: credit
+Amount: 30
+Timestamp: 2025-05-05T14:56:10.729228255Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(5, 'credit', 30.000000, '2025-05-05T14:56:10.729228255Z');
+[INFO] processTransaction called.
+[INFO] Argument are valid. Returning transaction object.
+[INFO] Transaction created:
+User ID: 3
+Type: debit
+Amount: 34
+Timestamp: 2025-05-05T14:56:10.729607977Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(3, 'debit', 34.000000, '2025-05-05T14:56:10.729607977Z');
+[INFO] processTransaction called.
+[ERROR] TransactionValidator::validateArgs: Argument Type Error at index 0:
+Expected: Unsigned Long convertible value
+Received: junk
+[ERROR] TransactionValidator::validateArgs: Argument Type Error at index 1:
+Expected: "Credit" or "Debit" (case insensitive)
+Received: junk
+[ERROR] TransactionValidator::validateArgs: Argument Type Error at index 2:
+Expected: Floating point convertible numeric value
+Received: junk
+[ERROR] process_transaction called: Invalid Arguments
+[WARNING] Query Invalid, will not execute.[INVALID]
+[INFO] Transactions successfully committed to the database!
+[ 5.05.2025 (пн) 17:56:10 EEST] Batch Job complete.
