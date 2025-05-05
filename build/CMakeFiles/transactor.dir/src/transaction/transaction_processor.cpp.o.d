@@ -1,6 +1,8 @@
-CMakeFiles/transactor.dir/src/main.cpp.o: \
- /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/15.1.1/iostream \
+CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o: \
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.cpp \
+ /usr/include/stdc-predef.h \
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.h \
+ /usr/include/c++/15.1.1/iostream \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -149,9 +151,7 @@ CMakeFiles/transactor.dir/src/main.cpp.o: \
  /usr/include/c++/15.1.1/bits/locale_facets.tcc \
  /usr/include/c++/15.1.1/bits/basic_ios.tcc \
  /usr/include/c++/15.1.1/bits/ostream.tcc /usr/include/c++/15.1.1/istream \
- /usr/include/c++/15.1.1/bits/istream.tcc \
- /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.h \
- /usr/include/c++/15.1.1/vector \
+ /usr/include/c++/15.1.1/bits/istream.tcc /usr/include/c++/15.1.1/vector \
  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.1.1/bits/stl_vector.h \
  /usr/include/c++/15.1.1/bits/stl_bvector.h \

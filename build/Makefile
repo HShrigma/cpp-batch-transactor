@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/transaction/transaction_processor.o: src/transaction/transaction_processor.cpp.o
+.PHONY : src/transaction/transaction_processor.o
+
+# target to build an object file
+src/transaction/transaction_processor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o
+.PHONY : src/transaction/transaction_processor.cpp.o
+
+src/transaction/transaction_processor.i: src/transaction/transaction_processor.cpp.i
+.PHONY : src/transaction/transaction_processor.i
+
+# target to preprocess a source file
+src/transaction/transaction_processor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.i
+.PHONY : src/transaction/transaction_processor.cpp.i
+
+src/transaction/transaction_processor.s: src/transaction/transaction_processor.cpp.s
+.PHONY : src/transaction/transaction_processor.s
+
+# target to generate assembly for a file
+src/transaction/transaction_processor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.s
+.PHONY : src/transaction/transaction_processor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/transaction/transaction_processor.o"
+	@echo "... src/transaction/transaction_processor.i"
+	@echo "... src/transaction/transaction_processor.s"
 .PHONY : help
 
 

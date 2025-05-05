@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.20)
 project(cpp_batch_transactor)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 find_package(PkgConfig REQUIRED)
 # Find libpqxx
@@ -14,7 +14,7 @@ include_directories(
 )
 
 # Source files
-file(GLOB SOURCES "src/*.cpp")
+file(GLOB SOURCES "src/*.cpp" "src/transaction/*.h" "src/transaction/*.cpp")
 
 # Executable
 add_executable(transactor ${SOURCES})

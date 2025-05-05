@@ -1,3 +1,25 @@
-[ 5.05.2025 (пн) 12:10:35 EEST] Starting batch job...
-[LOG] Test is working
-[ 5.05.2025 (пн) 12:10:35 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 14:06:59 EEST] Starting batch job...
+[LOG] process_transaction called!
+[SUCCESS] Argument types are valid!
+20 | credit | 59.99 | 2025-05-05T11:06:59.728113838Z | 
+[ 5.05.2025 (пн) 14:06:59 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 14:08:13 EEST] Starting batch job...
+[LOG] process_transaction called!
+[ERROR] TransactionProcessor::validateArgs: Invalid Arguments Size Error!
+Size cannot be: 2
+[ERROR] process_transaction called: Invalid Arguments
+[LOG] process_transaction called!
+[ERROR] TransactionProcessor::validateArgs: Argument Type Error at index 1:
+Expected: "Credit" or "Debit" (case insensitive)
+Received: test1
+[ERROR] TransactionProcessor::validateArgs: Argument Type Error at index 2:
+Expected: Floating point convertible numeric value
+Received: test2
+[ERROR] process_transaction called: Invalid Arguments
+[LOG] process_transaction called!
+[SUCCESS] Argument types are valid!
+20 | credit | 59.99 | 2025-05-05T11:08:15.069189549Z | 
+[LOG] process_transaction called!
+[SUCCESS] Argument types are valid!
+20 | credit | 59.99 | 2025-05-05T11:08:15.069214436Z | 
+[ 5.05.2025 (пн) 14:08:15 EEST] Batch Job complete.
