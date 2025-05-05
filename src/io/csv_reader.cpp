@@ -17,15 +17,21 @@ std::vector<std::vector<std::string>> CSVReader::readAll()
         std::vector<std::string> row;
         std::string line, word, temp;
 
+        bool isFirstLine{true};
         while (std::getline(fin, line))
         {
+            if (isFirstLine && skipHeader)
+            {
+                isFirstLine = false;
+                continue;
+            }
             parsed.emplace_back(lineToRow(line));
         }
         return parsed;
     }
     catch (const std::exception &e)
     {
-        std::cout << "[ERROR] SVReader::readAll: Error trying to open file at path: " << std::endl
+        std::cout << "[ERROR] CSVReader::readAll: Error trying to open file at path: " << std::endl
                   << path << std::endl;
         return parsed;
     }
@@ -34,8 +40,8 @@ std::vector<std::vector<std::string>> CSVReader::readAll()
 std::vector<std::string> CSVReader::lineToRow(const std::string &line)
 {
     std::vector<std::string> res;
-    size_t start = 0;
-    size_t end = 0;
+    size_t start{0};
+    size_t end{0};
 
     while ((end = line.find(',', start)) != std::string::npos)
     {

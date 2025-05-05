@@ -105,3 +105,20 @@ type: debit
 amount: 34
 timestamp: sample
 [ 5.05.2025 (пн) 16:09:48 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 16:14:37 EEST] Starting batch job...
+ROW:
+user_id: 1
+type: debit
+amount: 30
+timestamp: none
+ROW:
+user_id: 5
+type: credit
+amount: 30
+timestamp: none
+ROW:
+user_id: 3
+type: debit
+amount: 34
+timestamp: sample
+[ 5.05.2025 (пн) 16:14:44 EEST] Batch Job complete.
