@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/main.cpp" "CMakeFiles/transactor.dir/src/main.cpp.o" "gcc" "CMakeFiles/transactor.dir/src/main.cpp.o.d"
+  "/mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction.cpp" "CMakeFiles/transactor.dir/src/transaction/transaction.cpp.o" "gcc" "CMakeFiles/transactor.dir/src/transaction/transaction.cpp.o.d"
   "/mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.cpp" "CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o" "gcc" "CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o.d"
   "" "transactor" "gcc" "CMakeFiles/transactor.dir/link.d"
   )

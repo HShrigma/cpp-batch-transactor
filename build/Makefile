@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/transaction/transaction.o: src/transaction/transaction.cpp.o
+.PHONY : src/transaction/transaction.o
+
+# target to build an object file
+src/transaction/transaction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/transaction/transaction.cpp.o
+.PHONY : src/transaction/transaction.cpp.o
+
+src/transaction/transaction.i: src/transaction/transaction.cpp.i
+.PHONY : src/transaction/transaction.i
+
+# target to preprocess a source file
+src/transaction/transaction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/transaction/transaction.cpp.i
+.PHONY : src/transaction/transaction.cpp.i
+
+src/transaction/transaction.s: src/transaction/transaction.cpp.s
+.PHONY : src/transaction/transaction.s
+
+# target to generate assembly for a file
+src/transaction/transaction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/transaction/transaction.cpp.s
+.PHONY : src/transaction/transaction.cpp.s
+
 src/transaction/transaction_processor.o: src/transaction/transaction_processor.cpp.o
 .PHONY : src/transaction/transaction_processor.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/transaction/transaction.o"
+	@echo "... src/transaction/transaction.i"
+	@echo "... src/transaction/transaction.s"
 	@echo "... src/transaction/transaction_processor.o"
 	@echo "... src/transaction/transaction_processor.i"
 	@echo "... src/transaction/transaction_processor.s"

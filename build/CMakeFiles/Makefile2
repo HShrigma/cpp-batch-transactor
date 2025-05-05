@@ -85,12 +85,12 @@ clean: CMakeFiles/transactor.dir/clean
 CMakeFiles/transactor.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles --progress-num=1,2,3 "Built target transactor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles --progress-num=1,2,3,4 "Built target transactor"
 .PHONY : CMakeFiles/transactor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/transactor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/transactor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles 0
 .PHONY : CMakeFiles/transactor.dir/rule
@@ -102,7 +102,7 @@ transactor: CMakeFiles/transactor.dir/rule
 # codegen rule for target.
 CMakeFiles/transactor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target transactor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target transactor"
 .PHONY : CMakeFiles/transactor.dir/codegen
 
 # clean rule for target.
