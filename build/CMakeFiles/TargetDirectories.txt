@@ -1,0 +1,3 @@
+/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles/transactor.dir
+/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles/edit_cache.dir
+/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/CMakeFiles/rebuild_cache.dir

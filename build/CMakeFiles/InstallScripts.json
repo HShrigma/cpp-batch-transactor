@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/Storage/VSCode/CPP/cpp-batch-transactor/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
