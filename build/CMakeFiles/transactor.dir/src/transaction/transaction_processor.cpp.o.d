@@ -214,4 +214,5 @@ CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o: \
  /usr/include/c++/15.1.1/bits/regex.h \
  /usr/include/c++/15.1.1/bits/regex.tcc \
  /usr/include/c++/15.1.1/bits/regex_executor.h \
- /usr/include/c++/15.1.1/bits/regex_executor.tcc
+ /usr/include/c++/15.1.1/bits/regex_executor.tcc \
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction.h

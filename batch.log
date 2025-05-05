@@ -1,4 +1,4 @@
-[ 5.05.2025 (пн) 14:43:30 EEST] Starting batch job...
+[ 5.05.2025 (пн) 15:01:49 EEST] Starting batch job...
 [LOG] process_transaction called!
 [ERROR] TransactionProcessor::validateArgs: Invalid Arguments Size Error!
 Size cannot be: 2
@@ -13,17 +13,25 @@ Received: test2
 [ERROR] process_transaction called: Invalid Arguments
 [LOG] process_transaction called!
 [SUCCESS] Argument types are valid!
-20 | credit | 59.99 | 2025-05-05T11:43:37.119511923Z | 
+[INFO] Transaction created:
+User ID: 20
+Type: credit
+Amount: 59.99
+Timestamp: 2025-05-05T12:01:56.349224427Z
 [LOG] process_transaction called!
 [SUCCESS] Argument types are valid!
-20 | credit | 59.99 | 2025-05-05T11:43:37.119539805Z | 
-[ 5.05.2025 (пн) 14:43:37 EEST] Batch Job complete.
-[ 5.05.2025 (пн) 14:55:22 EEST] Starting batch job...
-[LOG] process_transaction called!
+[INFO] Transaction created:
+User ID: 20
+Type: credit
+Amount: 59.99
+Timestamp: 2025-05-05T12:01:56.349266726Z
+[ 5.05.2025 (пн) 15:01:56 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 15:02:51 EEST] Starting batch job...
+[INFO] processTransaction called.
 [ERROR] TransactionProcessor::validateArgs: Invalid Arguments Size Error!
 Size cannot be: 2
 [ERROR] process_transaction called: Invalid Arguments
-[LOG] process_transaction called!
+[INFO] processTransaction called.
 [ERROR] TransactionValidator::validateArgs: Argument Type Error at index 1:
 Expected: "Credit" or "Debit" (case insensitive)
 Received: test1
@@ -31,10 +39,18 @@ Received: test1
 Expected: Floating point convertible numeric value
 Received: test2
 [ERROR] process_transaction called: Invalid Arguments
-[LOG] process_transaction called!
-[SUCCESS] Argument types are valid!
-20 | credit | 59.99 | 2025-05-05T11:55:29.662057010Z | 
-[LOG] process_transaction called!
-[SUCCESS] Argument types are valid!
-20 | credit | 59.99 | 2025-05-05T11:55:29.662077158Z | 
-[ 5.05.2025 (пн) 14:55:29 EEST] Batch Job complete.
+[INFO] processTransaction called.
+[INFO] Argument are valid.
+[INFO] Transaction created:
+User ID: 20
+Type: credit
+Amount: 59.99
+Timestamp: 2025-05-05T12:02:55.557354277Z
+[INFO] processTransaction called.
+[INFO] Argument are valid.
+[INFO] Transaction created:
+User ID: 20
+Type: credit
+Amount: 59.99
+Timestamp: 2025-05-05T12:02:55.557431872Z
+[ 5.05.2025 (пн) 15:02:55 EEST] Batch Job complete.

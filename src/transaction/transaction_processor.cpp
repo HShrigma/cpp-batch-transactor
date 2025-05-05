@@ -2,16 +2,17 @@
 
 void TransactionProcessor::processTransaction(std::vector<std::string> args)
 {
-    std::cout << "[LOG] process_transaction called!" << std::endl;
+    std::cout << "[INFO] processTransaction called." << std::endl;
     if (TransactionValidator::areArgsValid(&args))
     {
-        std::cout << "[SUCCESS] Argument types are valid!" << std::endl;
-
-        for (auto &&i : args)
-        {
-            std::cout << i << " | ";
-        }
-        std::cout << std::endl;
+        std::cout << "[INFO] Argument are valid." << std::endl;
+        Transaction t = Transaction::fromVector(args);
+        std::cout << "[INFO] Transaction created:"<< std::endl
+          << "User ID: " << t.user_id << std::endl
+          << "Type: " << t.type << std::endl
+          << "Amount: " << t.amount << "\n"
+          << "Timestamp: " << t.timestamp << "\n";
+        
         return;
     }
     std::cout << "[ERROR] process_transaction called: Invalid Arguments" << std::endl;

@@ -1,5 +1,6 @@
 #pragma once
 #include "helpers/transaction_validator.h"
+#include "transaction.h"
 
 class TransactionProcessor
 {
