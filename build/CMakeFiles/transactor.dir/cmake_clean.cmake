@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/transactor.dir/link.d"
+  "CMakeFiles/transactor.dir/src/io/csv_reader.cpp.o"
+  "CMakeFiles/transactor.dir/src/io/csv_reader.cpp.o.d"
   "CMakeFiles/transactor.dir/src/main.cpp.o"
   "CMakeFiles/transactor.dir/src/main.cpp.o.d"
   "CMakeFiles/transactor.dir/src/transaction/transaction.cpp.o"

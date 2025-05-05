@@ -14,7 +14,7 @@ include_directories(
 )
 
 # Source files
-file(GLOB SOURCES "src/*.cpp" "src/transaction/*.h" "src/transaction/*.cpp" "src/transaction/helpers/*.h")
+file(GLOB SOURCES "src/*.cpp" "src/transaction/*.h" "src/transaction/*.cpp" "src/transaction/helpers/*.h" "src/io/*.h" "src/io/*.cpp")
 
 # Executable
 add_executable(transactor ${SOURCES})

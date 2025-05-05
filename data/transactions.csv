@@ -1,0 +1,4 @@
+user_id,type,amount,timestamp,
+1,debit,30,,
+5,credit,30,,
+3,debit,34,sample,

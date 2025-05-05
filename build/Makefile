@@ -129,6 +129,30 @@ transactor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/build
 .PHONY : transactor/fast
 
+src/io/csv_reader.o: src/io/csv_reader.cpp.o
+.PHONY : src/io/csv_reader.o
+
+# target to build an object file
+src/io/csv_reader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/io/csv_reader.cpp.o
+.PHONY : src/io/csv_reader.cpp.o
+
+src/io/csv_reader.i: src/io/csv_reader.cpp.i
+.PHONY : src/io/csv_reader.i
+
+# target to preprocess a source file
+src/io/csv_reader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/io/csv_reader.cpp.i
+.PHONY : src/io/csv_reader.cpp.i
+
+src/io/csv_reader.s: src/io/csv_reader.cpp.s
+.PHONY : src/io/csv_reader.s
+
+# target to generate assembly for a file
+src/io/csv_reader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/transactor.dir/build.make CMakeFiles/transactor.dir/src/io/csv_reader.cpp.s
+.PHONY : src/io/csv_reader.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -210,6 +234,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... transactor"
+	@echo "... src/io/csv_reader.o"
+	@echo "... src/io/csv_reader.i"
+	@echo "... src/io/csv_reader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

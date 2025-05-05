@@ -2,6 +2,7 @@ transactor: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o \
+  CMakeFiles/transactor.dir/src/io/csv_reader.cpp.o \
   CMakeFiles/transactor.dir/src/main.cpp.o \
   CMakeFiles/transactor.dir/src/transaction/transaction.cpp.o \
   CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o \
@@ -63,6 +64,8 @@ transactor: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o:
+
+CMakeFiles/transactor.dir/src/io/csv_reader.cpp.o:
 
 CMakeFiles/transactor.dir/src/main.cpp.o:
 
