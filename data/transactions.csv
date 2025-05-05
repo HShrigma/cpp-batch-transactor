@@ -1,4 +1,5 @@
-user_id,type,amount,timestamp,
-1,debit,30,,
-5,credit,30,,
-3,debit,34,sample,
+user_id,type,amount,timestamp
+1,debit,30,2025-05-05T14:06:38.250975450Z,
+5,credit,30,2025-05-05T14:06:38.251038248Z,
+3,debit,34,2025-05-05T14:06:38.251320687Z,
+junk,junk,junk,junk,

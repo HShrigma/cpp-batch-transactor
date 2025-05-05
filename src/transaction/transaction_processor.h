@@ -15,5 +15,6 @@ public:
 
         timestamp: ISO 8601 string (optional, could use current time if missing)
     */
-    static void processTransaction(std::vector<std::string> args);
+    static Transaction *buildTransaction(std::vector<std::string> args, bool debug = false);
+    static std::string buildQuery(Transaction *t);
 };

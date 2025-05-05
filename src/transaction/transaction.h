@@ -8,5 +8,5 @@ struct Transaction {
     float amount;
     std::string timestamp;    // ISO 8601 UTC
 
-    static Transaction fromVector(const std::vector<std::string>& fields);
+    Transaction (const std::vector<std::string>& fields);
 };

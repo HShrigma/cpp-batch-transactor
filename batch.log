@@ -1,23 +1,40 @@
-[ 5.05.2025 (пн) 16:24:10 EEST] Starting batch job...
+[ 5.05.2025 (пн) 17:46:55 EEST] Starting batch job...
+Connected to the database!
 [INFO] processTransaction called.
-[INFO] Argument are valid.
+[INFO] Argument are valid. Returning transaction object.
 [INFO] Transaction created:
 User ID: 1
 Type: debit
 Amount: 30
-Timestamp: 2025-05-05T13:24:10.310435021Z
+Timestamp: 2025-05-05T14:46:57.837978789Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(1, 'debit', 30.000000, '2025-05-05T14:46:57.837978789Z');
 [INFO] processTransaction called.
-[INFO] Argument are valid.
+[INFO] Argument are valid. Returning transaction object.
 [INFO] Transaction created:
 User ID: 5
 Type: credit
 Amount: 30
-Timestamp: 2025-05-05T13:24:10.310486909Z
+Timestamp: 2025-05-05T14:46:57.838783177Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(5, 'credit', 30.000000, '2025-05-05T14:46:57.838783177Z');
 [INFO] processTransaction called.
-[INFO] Argument are valid.
+[INFO] Argument are valid. Returning transaction object.
 [INFO] Transaction created:
 User ID: 3
 Type: debit
 Amount: 34
-Timestamp: 2025-05-05T13:24:10.310700349Z
-[ 5.05.2025 (пн) 16:24:10 EEST] Batch Job complete.
+Timestamp: 2025-05-05T14:46:57.839131581Z
+[INFO] Query Executed:INSERT INTO transactions (user_id, transaction_type, amount, timestamp) VALUES(3, 'debit', 34.000000, '2025-05-05T14:46:57.839131581Z');
+[INFO] processTransaction called.
+[ERROR] TransactionValidator::validateArgs: Argument Type Error at index 0:
+Expected: Unsigned Long convertible value
+Received: junk
+[ERROR] TransactionValidator::validateArgs: Argument Type Error at index 1:
+Expected: "Credit" or "Debit" (case insensitive)
+Received: junk
+[ERROR] TransactionValidator::validateArgs: Argument Type Error at index 2:
+Expected: Floating point convertible numeric value
+Received: junk
+[ERROR] process_transaction called: Invalid Arguments
+[WARNING] Query Invalid, will not execute.[INVALID]
+[INFO] Transactions successfully committed to the database!
+[ 5.05.2025 (пн) 17:46:57 EEST] Batch Job complete.

@@ -2,31 +2,51 @@
 #include "transaction/transaction_processor.h"
 #include "transaction/helpers/transaction_validator.h"
 #include "io/csv_reader.h"
+#include "db.hpp"
 
 const std::string CSV_PATH = "../data/transactions.csv";
-void testProcessingValidation()
+
+void processTransactions(const std::vector<std::vector<std::string>> &transactions)
 {
-    std::vector<std::string> invalid_size{"test", "test3"};
-    std::vector<std::string> invalid_types{"-20", "test1", "test2"};
+    pqxx::connection conn{Database::connectToDB()};
+    pqxx::work txn(conn);
+    bool success{true};
+    std::string query;
 
-    std::string stampISO{TransactionValidator::getISOCurrentTimeStamp()};
-
-    std::vector<std::string> valid{"20", "credit", "59.99", stampISO};
-    std::vector<std::string> valid_no_timestamp{"20", "credit", "59.99"};
-
-    TransactionProcessor::processTransaction(invalid_size);
-    TransactionProcessor::processTransaction(invalid_types);
-    TransactionProcessor::processTransaction(valid);
-    TransactionProcessor::processTransaction(valid_no_timestamp);
+    for (const auto &row : transactions)
+    {
+        query = TransactionProcessor::buildQuery(
+            TransactionProcessor::buildTransaction(row, true)); // delete ', true' if not debugging
+        try
+        {
+            if (query != "[INVALID]")
+            {
+                txn.exec(query);
+                std::cout << "[INFO] Query Executed:" << query << std::endl;
+            }
+            else{
+                std::cout << "[WARNING] Query Invalid, will not execute." << query << std::endl;
+            }
+        }
+        catch (const std::exception &e)
+        {
+            std::cout << "[ERROR] an error ocurred while executing query: " << query << std::endl;
+            std::cerr << e.what() << '\n';
+            success = false;
+            continue;
+        }
+    }
+    if (success)
+    {
+        txn.commit();
+        std::cout << "[INFO] Transactions successfully committed to the database!" << std::endl;
+    }
 }
 
 int main(int argc, char const *argv[])
 {
     CSVReader reader = CSVReader(CSV_PATH);
-    auto parsed = reader.readAll();
-    for (const auto &row : parsed)
-    {
-        TransactionProcessor::processTransaction(row);
-    }
+    auto transactions = reader.readAll();
+    processTransactions(transactions);
     return 0;
 }

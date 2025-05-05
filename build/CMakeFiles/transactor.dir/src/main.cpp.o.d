@@ -220,4 +220,95 @@ CMakeFiles/transactor.dir/src/main.cpp.o: \
  /usr/include/c++/15.1.1/fstream \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/15.1.1/bits/fstream.tcc
+ /usr/include/c++/15.1.1/bits/fstream.tcc \
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/include/db.hpp \
+ /usr/include/pqxx/pqxx /usr/include/pqxx/internal/header-pre.hxx \
+ /usr/include/c++/15.1.1/version \
+ /usr/include/pqxx/config-public-compiler.h /usr/include/pqxx/array.hxx \
+ /usr/include/c++/15.1.1/algorithm \
+ /usr/include/c++/15.1.1/bits/ranges_algo.h \
+ /usr/include/c++/15.1.1/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/15.1.1/pstl/execution_defs.h \
+ /usr/include/c++/15.1.1/cassert /usr/include/assert.h \
+ /usr/include/c++/15.1.1/utility \
+ /usr/include/c++/15.1.1/bits/stl_relops.h \
+ /usr/include/pqxx/connection.hxx /usr/include/c++/15.1.1/list \
+ /usr/include/c++/15.1.1/bits/stl_list.h \
+ /usr/include/c++/15.1.1/bits/list.tcc /usr/include/c++/15.1.1/map \
+ /usr/include/c++/15.1.1/bits/stl_multimap.h \
+ /usr/include/c++/15.1.1/bits/erase_if.h /usr/include/c++/15.1.1/memory \
+ /usr/include/c++/15.1.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15.1.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15.1.1/bits/atomic_base.h \
+ /usr/include/c++/15.1.1/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/15.1.1/bits/atomic_wait.h \
+ /usr/include/c++/15.1.1/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h /usr/include/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h /usr/include/syscall.h \
+ /usr/include/sys/syscall.h /usr/include/asm/unistd.h \
+ /usr/include/asm/unistd_64.h /usr/include/bits/syscall.h \
+ /usr/include/c++/15.1.1/bits/std_mutex.h \
+ /usr/include/c++/15.1.1/backward/auto_ptr.h \
+ /usr/include/c++/15.1.1/bits/ranges_uninitialized.h \
+ /usr/include/c++/15.1.1/pstl/glue_memory_defs.h \
+ /usr/include/pqxx/errorhandler.hxx /usr/include/pqxx/types.hxx \
+ /usr/include/c++/15.1.1/iterator \
+ /usr/include/c++/15.1.1/bits/stream_iterator.h \
+ /usr/include/pqxx/except.hxx /usr/include/pqxx/internal/concat.hxx \
+ /usr/include/pqxx/strconv.hxx /usr/include/c++/15.1.1/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/c++/15.1.1/ranges /usr/include/pqxx/util.hxx \
+ /usr/include/c++/15.1.1/functional /usr/include/c++/15.1.1/unordered_map \
+ /usr/include/c++/15.1.1/bits/unordered_map.h \
+ /usr/include/c++/15.1.1/bits/hashtable.h \
+ /usr/include/c++/15.1.1/bits/hashtable_policy.h \
+ /usr/include/pqxx/version.hxx \
+ /usr/include/pqxx/internal/libpq-forward.hxx \
+ /usr/include/pqxx/internal/ignore-deprecated-pre.hxx \
+ /usr/include/pqxx/internal/ignore-deprecated-post.hxx \
+ /usr/include/pqxx/zview.hxx /usr/include/pqxx/internal/conversions.hxx \
+ /usr/include/c++/15.1.1/numeric \
+ /usr/include/c++/15.1.1/bits/stl_numeric.h \
+ /usr/include/c++/15.1.1/pstl/glue_numeric_defs.h \
+ /usr/include/c++/15.1.1/variant /usr/include/pqxx/params.hxx \
+ /usr/include/pqxx/internal/statement_parameters.hxx \
+ /usr/include/pqxx/binarystring.hxx /usr/include/pqxx/result.hxx \
+ /usr/include/pqxx/internal/encodings.hxx \
+ /usr/include/pqxx/internal/encoding_group.hxx \
+ /usr/include/pqxx/separated_list.hxx \
+ /usr/include/pqxx/internal/array-composite.hxx \
+ /usr/include/pqxx/blob.hxx /usr/include/c++/15.1.1/filesystem \
+ /usr/include/c++/15.1.1/bits/fs_fwd.h \
+ /usr/include/c++/15.1.1/bits/fs_path.h /usr/include/c++/15.1.1/codecvt \
+ /usr/include/c++/15.1.1/bits/fs_dir.h \
+ /usr/include/c++/15.1.1/bits/fs_ops.h \
+ /usr/include/pqxx/dbtransaction.hxx \
+ /usr/include/pqxx/transaction_base.hxx \
+ /usr/include/pqxx/internal/stream_query.hxx \
+ /usr/include/pqxx/internal/gates/connection-stream_from.hxx \
+ /usr/include/pqxx/internal/callgate.hxx \
+ /usr/include/pqxx/internal/stream_iterator.hxx \
+ /usr/include/pqxx/transaction_focus.hxx /usr/include/pqxx/isolation.hxx \
+ /usr/include/pqxx/row.hxx /usr/include/pqxx/field.hxx \
+ /usr/include/pqxx/composite.hxx \
+ /usr/include/pqxx/internal/stream_query_impl.hxx \
+ /usr/include/pqxx/cursor.hxx /usr/include/pqxx/internal/sql_cursor.hxx \
+ /usr/include/pqxx/largeobject.hxx /usr/include/pqxx/nontransaction.hxx \
+ /usr/include/pqxx/transaction.hxx /usr/include/pqxx/notification.hxx \
+ /usr/include/pqxx/pipeline.hxx /usr/include/pqxx/prepared_statement.hxx \
+ /usr/include/pqxx/params.hxx /usr/include/pqxx/range.hxx \
+ /usr/include/pqxx/internal/result_iterator.hxx \
+ /usr/include/pqxx/internal/result_iter.hxx \
+ /usr/include/pqxx/robusttransaction.hxx \
+ /usr/include/pqxx/stream_from.hxx /usr/include/pqxx/stream_to.hxx \
+ /usr/include/pqxx/subtransaction.hxx /usr/include/pqxx/time.hxx \
+ /usr/include/pqxx/transactor.hxx \
+ /usr/include/pqxx/internal/header-post.hxx
