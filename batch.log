@@ -122,3 +122,26 @@ type: debit
 amount: 34
 timestamp: sample
 [ 5.05.2025 (пн) 16:14:44 EEST] Batch Job complete.
+[ 5.05.2025 (пн) 16:19:32 EEST] Starting batch job...
+[INFO] processTransaction called.
+[INFO] Argument are valid.
+[INFO] Transaction created:
+User ID: 1
+Type: debit
+Amount: 30
+Timestamp: 2025-05-05T13:19:35.774171067Z
+[INFO] processTransaction called.
+[INFO] Argument are valid.
+[INFO] Transaction created:
+User ID: 5
+Type: credit
+Amount: 30
+Timestamp: 2025-05-05T13:19:35.774244776Z
+[INFO] processTransaction called.
+[INFO] Argument are valid.
+[INFO] Transaction created:
+User ID: 3
+Type: debit
+Amount: 34
+Timestamp: 2025-05-05T13:19:35.774474787Z
+[ 5.05.2025 (пн) 16:19:35 EEST] Batch Job complete.

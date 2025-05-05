@@ -24,13 +24,9 @@ int main(int argc, char const *argv[])
 {
     CSVReader reader = CSVReader(CSV_PATH);
     auto parsed = reader.readAll();
-    for (auto row : parsed)
+    for (const auto &row : parsed)
     {
-        std::cout << "ROW:" << std::endl;
-        std::cout << "user_id: " << row.at(0) << std::endl;
-        std::cout << "type: " << row.at(1) << std::endl;
-        std::cout << "amount: " << row.at(2) << std::endl;
-        std::cout << "timestamp: " << (row.size() > 3 ? row.at(3) : "none") << std::endl;
+        TransactionProcessor::processTransaction(row);
     }
     return 0;
 }
