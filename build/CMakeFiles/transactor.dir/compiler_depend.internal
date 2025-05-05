@@ -3,6 +3,7 @@
 
 CMakeFiles/transactor.dir/src/main.cpp.o
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/main.cpp
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/helpers/transaction_validator.h
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
@@ -289,6 +290,7 @@ CMakeFiles/transactor.dir/src/main.cpp.o
 
 CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.cpp
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/helpers/transaction_validator.h
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h

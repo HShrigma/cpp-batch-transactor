@@ -151,6 +151,7 @@ CMakeFiles/transactor.dir/src/main.cpp.o: \
  /usr/include/c++/15.1.1/bits/ostream.tcc /usr/include/c++/15.1.1/istream \
  /usr/include/c++/15.1.1/bits/istream.tcc \
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.h \
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/helpers/transaction_validator.h \
  /usr/include/c++/15.1.1/vector \
  /usr/include/c++/15.1.1/bits/stl_uninitialized.h \
  /usr/include/c++/15.1.1/bits/stl_vector.h \

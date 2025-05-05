@@ -2,6 +2,7 @@ CMakeFiles/transactor.dir/src/transaction/transaction_processor.cpp.o: \
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.cpp \
  /usr/include/stdc-predef.h \
  /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/transaction_processor.h \
+ /mnt/Storage/VSCode/CPP/cpp-batch-transactor/src/transaction/helpers/transaction_validator.h \
  /usr/include/c++/15.1.1/iostream \
  /usr/include/c++/15.1.1/bits/requires_hosted.h \
  /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
